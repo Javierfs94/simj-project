@@ -1,0 +1,68 @@
+/* Sidebar menu */
+.main-sidebar {
+    background-color: #0a63c3 !important;
+}
+
+.main-sidebar .nav-link,
+.main-sidebar .brand-link {
+    color: #fff !important;
+}
+
+.main-sidebar .nav-link:hover,
+.main-sidebar .brand-link:hover {
+    background-color: #5da1e9 !important;
+}
+
+/* Footer */
+footer a {
+    color: #0a63c3 !important;
+}
+
+footer .footer-version {
+    background-color: #5b6167 !important;
+    color: #fff !important;
+    display: inline-block;
+    padding: .25em .4em;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+footer .footer-version-value {
+    background-color: #0a63c3 !important;
+    color: #fff !important;
+    display: inline-block;
+    padding: .25em .4em;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+
+/* Proyects list */
+#external-projects {
+    background-color: #f39c12;
+    color: #fff;
+    border-radius: 5px;
+}
+
+#external-projects .fc-event {
+    margin: 10px 0;
+    cursor: move;
+    border-radius: 8px; /* bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* sombra suave */
+    padding: 10px;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+#external-projects .fc-event:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* efecto en hover */
+}
